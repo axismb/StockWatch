@@ -21,7 +21,8 @@ watchlist = {}
 # add each stock from config
 for l in lines:
     res = l.split()
-    symbol = res[0]
+    symbol = res[0].upper()
     price = float(res[1])
 
+    print ("Adding " + symbol + " to watchlist...")
     watchlist[symbol] = price

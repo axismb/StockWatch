@@ -26,8 +26,8 @@
       <file leaf-file-name="watch.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/watch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28074867" vertical-offset="105" max-vertical-offset="480">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.63903743" vertical-offset="106" max-vertical-offset="510">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -45,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/watch.py" />
         <option value="$PROJECT_DIR$/stock.txt" />
+        <option value="$PROJECT_DIR$/watch.py" />
       </list>
     </option>
   </component>
@@ -263,6 +263,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="715500c4-d006-4d2c-af5e-a4eec9e748bd" name="Default" comment="" />
@@ -324,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/watch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28074867" vertical-offset="105" max-vertical-offset="480">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.63903743" vertical-offset="106" max-vertical-offset="510">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
