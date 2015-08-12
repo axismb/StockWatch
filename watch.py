@@ -1,18 +1,8 @@
 import requests
 import urllib2
+import  time
 
 __author__ = 'Aziz Batihk'
-
-# get quote of specified symbols
-def get_quote(symbols):
-    url = "https://api.robinhood.com/quotes/"
-    query = { 'symbols': symbols }
-    resp = requests.session().get(url, params=query)
-    resp = resp.json()
-    return resp['results']
-
-# main check
-def do_routine():
 
 # read stocks file
 stock_file = "stock.txt"
@@ -30,3 +20,19 @@ for l in lines:
     print ("Adding " + symbol + " to watchlist...")
     watchlist[symbol] = price
 
+
+# get quote of specified symbols
+def get_quote(symbols):
+    url = "https://api.robinhood.com/quotes/"
+    query = { 'symbols': symbols }
+    resp = requests.session().get(url, params=query)
+    resp = resp.json()
+    return resp['results']
+
+# run main
+def run_routine():
+    print ("Getting quotes...")
+
+while True:
+    run_routine()
+    time.sleep(60)
