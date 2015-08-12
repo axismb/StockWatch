@@ -11,8 +11,8 @@ def get_quote(symbols):
     resp = resp.json()
     return resp['results']
 
-# read config file
-file = "config.txt"
+# read stocks file
+file = "stock.txt"
 lines = open(file).read().splitlines()
 
 # init watchlist
