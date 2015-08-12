@@ -26,10 +26,11 @@
       <file leaf-file-name="watch.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/watch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63903743" vertical-offset="106" max-vertical-offset="510">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="495">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#121#300#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -327,10 +328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/watch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63903743" vertical-offset="106" max-vertical-offset="510">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.32085562" vertical-offset="0" max-vertical-offset="495">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#121#300#0" expanded="false" />
           </folding>
         </state>
       </provider>

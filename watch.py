@@ -11,9 +11,12 @@ def get_quote(symbols):
     resp = resp.json()
     return resp['results']
 
+# main check
+def do_routine():
+
 # read stocks file
-file = "stock.txt"
-lines = open(file).read().splitlines()
+stock_file = "stock.txt"
+lines = open(stock_file).read().splitlines()
 
 # init watchlist
 watchlist = {}
@@ -26,3 +29,4 @@ for l in lines:
 
     print ("Adding " + symbol + " to watchlist...")
     watchlist[symbol] = price
+
