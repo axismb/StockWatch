@@ -3,7 +3,7 @@ import urllib2
 
 __author__ = 'Aziz Batihk'
 
-
+# get quote of specified symbols
 def get_quote(symbols):
     url = "https://api.robinhood.com/quotes/"
     query = { 'symbols': symbols }
