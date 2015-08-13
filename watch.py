@@ -36,10 +36,13 @@ def run_routine():
     quotes = get_quote(watchlist.keys())
 
     for q in quotes:
-        if q['last_trade_price'] <= watchlist[q['symbol']]:
-            print q['symbol'], ": ", q['last_trade_price']
+        trading_price = float(q['last_trade_price'])
+        threshold_price = float(watchlist[q['symbol']])
+
+        if trading_price <= threshold_price:
+            print q['symbol'], ": ", trading_price
     print "Finished fetching quotes.\n"
 
 while True:
     run_routine()
-    time.sleep(10)
+    time.sleep(60)
