@@ -17,8 +17,10 @@ for l in lines:
     symbol = res[0].upper()
     price = float(res[1])
 
-    print ("Adding " + symbol + " to watchlist...")
+    print ("Adding " + symbol + " ($" + str(price) + ")" + " to watchlist...")
     watchlist[symbol] = price
+
+print "Startup configuration complete.\n"
 
 
 # get quote of specified symbols
@@ -36,7 +38,8 @@ def run_routine():
     for q in quotes:
         if q['last_trade_price'] <= watchlist[q['symbol']]:
             print q['symbol'], ": ", q['last_trade_price']
+    print "Finished fetching quotes.\n"
 
 while True:
     run_routine()
-    time.sleep(60)
+    time.sleep(10)
