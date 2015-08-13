@@ -25,7 +25,6 @@ for l in lines:
 def get_quote(symbols):
     url = "https://api.robinhood.com/quotes/?symbols="
     resp = requests.session().get(url + ",".join(symbols) )
-    print resp.url
     resp = resp.json()
     return resp['results']
 
@@ -33,7 +32,10 @@ def get_quote(symbols):
 def run_routine():
     print ("Getting quotes...")
     quotes = get_quote(watchlist.keys())
-    
+
+    for q in quotes:
+        if q['last_trade_price'] <= watchlist[q['symbol']]:
+            print q['symbol'], ": ", q['last_trade_price']
 
 while True:
     run_routine()
