@@ -1,6 +1,6 @@
 import requests
 import urllib2
-import  time
+import time
 
 __author__ = 'Aziz Batihk'
 
@@ -23,15 +23,17 @@ for l in lines:
 
 # get quote of specified symbols
 def get_quote(symbols):
-    url = "https://api.robinhood.com/quotes/"
-    query = { 'symbols': symbols }
-    resp = requests.session().get(url, params=query)
+    url = "https://api.robinhood.com/quotes/?symbols="
+    resp = requests.session().get(url + ",".join(symbols) )
+    print resp.url
     resp = resp.json()
     return resp['results']
 
 # run main
 def run_routine():
     print ("Getting quotes...")
+    quotes = get_quote(watchlist.keys())
+    
 
 while True:
     run_routine()
